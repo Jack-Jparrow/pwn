@@ -1,10 +1,10 @@
 '''
 Author: 白银
 Date: 2023-01-03 14:48:31
-LastEditTime: 2023-01-03 19:06:52
+LastEditTime: 2023-01-11 08:46:40
 LastEditors: 白银
 Description: gcc question_6_2.c -fno-stack-protector -no-pie -o question_6_2_x64  https://www.bilibili.com/video/BV1mr4y1Y7fW?t=1821.2&p=24
-Attention: ret2shellcoe
+Attention: ret2shellcode
 FilePath: /pwn/question_6_2_x64.py
 '''
 

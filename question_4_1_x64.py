@@ -1,4 +1,14 @@
 '''
+@Author       : 白银
+@Date         : 2022-11-27 21:40:24
+@LastEditors  : 白银
+@LastEditTime : 2023-03-10 19:17:19
+@FilePath     : /pwn/question_4_1_x64.py
+@Description  : 
+@Attention    : 
+@Copyright (c) 2023 by 白银 captain-jparrow@qq.com, All Rights Reserved. 
+'''
+'''
 Author: 白银
 Date: 2022-11-17 17:21:46
 LastEditTime: 2022-11-17 20:34:06
@@ -13,7 +23,8 @@ pwnfile = './question_4_1_x64'
 state = 0 # 0为远程
 
 if state == 0:
-    io = remote("192.168.61.134", 8888)
+    # io = remote("192.168.61.134", 8888)
+    io = remote("node4.buuoj.cn", 29687)
 else:
     io = process(pwnfile)
 
